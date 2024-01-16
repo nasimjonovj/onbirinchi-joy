@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    position: relative;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  
+}
+.nav__heading{
+    font-family:cursive
+}
+.nav__collection{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.nav__right{
+    gap: 20px;
+}
+.fa-solid{
+    padding: 0 20px;
+}
+.text{
+    width: 100%;
+    height: 40px;
+    padding-top: 12px;
+    text-align: center;
+    background: #ccc;
+
+
+}
+.entry{
+    width: 100%;
+    height: 600px;
+    background: url(https://www.asus.com/WebsitesBanner/global/banners/vjoj5d49cv9dqcuv/vjoj5d49cv9dqcuv-0_0_desktop_0_1X.jpg?webp)no-repeat center/cover;
+
+}
+.imege{
+    width: 100%;
+    margin-top: 1px;
+    height: 600px;
+    background: url(https://www.asus.com/WebsitesBanner/global/banners/wvkm2ksywnpqzn2q/wvkm2ksywnpqzn2q-0_0_desktop_0_1X.jpg?webp)no-repeat center/cover;
+
+}
+.center{
+    width: 100%;
+    min-height: 1200px;
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 1%;
+}
+.center__img{
+    width: 49.5%;
+    height: 550px;
+    margin-top: 15px;
+}
+.lolo{
+    background:url(https://www.asus.com/WebsitesBanner/global/banners/6jnjriahmwkgiawv/6jnjriahmwkgiawv-4_0_desktop_4_1X.webp?webp)no-repeat center/cover
+    ;
+}
+.pop{
+    background:url(https://www.asus.com/WebsitesBanner/global/banners/6jnjriahmwkgiawv/6jnjriahmwkgiawv-3_0_desktop_3_1X.jpg?webp)no-repeat center/cover
+    ;
+}
+.erta{
+    background:url(https://www.asus.com/WebsitesBanner/global/banners/6jnjriahmwkgiawv/6jnjriahmwkgiawv-2_0_desktop_2_1X.jpg?webp)no-repeat center/cover
+    ;
+}
+.pep{
+    background: url(https://www.asus.com/WebsitesBanner/global/banners/6jnjriahmwkgiawv/6jnjriahmwkgiawv-5_0_desktop_5_1X.webp?webp)no-repeat center/cover;
+}
+.car{
+    background: url(https://www.asus.com/WebsitesBanner/global/banners/6jnjriahmwkgiawv/6jnjriahmwkgiawv-1_0_desktop_0_1X.jpg?webp)no-repeat center/cover;
+}
+.cat{
+    background: url(https://www.asus.com/WebsitesBanner/global/banners/6jnjriahmwkgiawv/6jnjriahmwkgiawv-0_0_desktop_1_1X.jpg?webp)no-repeat center/cover;
+}
+.cat img{
+    margin-top: 40px;
+    margin-left: 130px;
+
+
+}
+.cat p{
+    text-align: center;
+    font-size: 18px;
+    padding-top: 20px;
+}
+.cat a{
+    text-align: center;
+   padding-top: 20px;
+    
+}
+.car img{
+    margin-top: 370px;
+    margin-left: 130px;
+}
+.car p{
+    text-align: center;
+    font-size: 18px;
+    padding-top: 20px;
+}
+.title{
+    text-align: center;
+    margin-top: 40px;
+}
+.href{
+    margin-top: 50px;
+    margin-left: 650px;
+}
